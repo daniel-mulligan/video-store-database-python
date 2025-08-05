@@ -33,7 +33,7 @@ If it's new, you’ll be prompted to enter:
 
 * Last Name
 
-Address
+* Address
 
 After successful registration, type M to return to the main menu.
 
@@ -42,9 +42,9 @@ From the menu, type 2 and press Enter.
 
 You’ll be prompted to enter:
 
-Video Name
+* Video Name
 
-Video Type (e.g., Action, Comedy)
+* Video Type (e.g., Action, Comedy)
 
 Once completed, type M to return to the main menu.
 
@@ -53,11 +53,11 @@ From the menu, type 3 and press Enter.
 
 You will need to input:
 
-Video ID – must already exist
+* Video ID – must already exist
 
-Video Version – such as a specific release or format
+* Video Version – such as a specific release or format
 
-Customer ID – must be a registered customer
+* Customer ID – must be a registered customer
 
 If incorrect details are entered, you will be prompted again.
 
@@ -68,9 +68,9 @@ From the menu, type 4 and press Enter.
 
 You’ll be asked for:
 
-Video ID
+* Video ID
 
-Video Version
+* Video Version
 
 After logging the return, type M to go back to the main menu.
 
@@ -80,13 +80,13 @@ Type x or X to exit the program safely.
 Both the server and client programs will terminate.
 
 ## 🔄 General Tips
-Use the MySQL Workbench in the background to verify live data changes in the database.
+* Use the MySQL Workbench in the background to verify live data changes in the database.
 
-Refer to table names such as customers, videos, hires, and returns to find valid IDs and verify data integrity.
+* Refer to table names such as customers, videos, hires, and returns to find valid IDs and verify data integrity.
 
-The application will clear the screen between actions for a cleaner user experience.
+* The application will clear the screen between actions for a cleaner user experience.
 
-You can always return to the main menu by typing M when prompted.
+* You can always return to the main menu by typing M when prompted.
 
 ## 💬 Still Stuck?
-If you run into unexpected behavior, refer to the Setup Instructions or Error Handling Guide for help.
+If you run into unexpected behavior, refer to the [Setup Instructions](docs/setup-instructions.md). for help.
