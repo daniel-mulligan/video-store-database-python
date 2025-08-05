@@ -76,14 +76,18 @@ Open a terminal and run:
 
 ```bash
 python server.py
-2. Run the Client
+```
+
+### 2. Run the Client
+
 In a separate terminal, run:
 
-bash
-Copy
-Edit
+```bash
 python main.py
-3. Follow Terminal Prompts
+```
+
+### 3. Follow Terminal Prompts
+   
 Create the database: type Y
 
 Proceed to main menu: type M
