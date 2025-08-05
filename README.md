@@ -62,7 +62,25 @@ For full flow explanation: [`docs/architecture.md`](docs/architecture.md)
 
 ## 🧯 Troubleshooting
 
-Error like:
-
-```bash
+### Server Error:
+Should you encounter the following error:
 Error connecting to server: [WinError 10061] No connection could be made
+because the target machine actively refused it
+It is because the server.py file was not running before the main.py file was executed or it
+was not run on a separate terminal.
+Alternatively you may have entered an invalid port number in the setup of your server.py
+file.
+
+#### To fix this:
+Please ensure you are running server.py on a separate terminal before running main.py and
+that the port entered into the server.py file is valid.
+
+### Database Error:
+Should you encounter the following error:
+“Incorrect username or password!”
+When running your server after setup, this indicates that incorrect login details were added
+to the database.py file during setup.
+
+#### To fix this:
+Please ensure you have entered the correct login information for the MySQL connection
+you are intending to create the database on.
