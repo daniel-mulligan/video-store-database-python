@@ -89,4 +89,4 @@ Both the server and client programs will terminate.
 * You can always return to the main menu by typing M when prompted.
 
 ## 💬 Still Stuck?
-If you run into unexpected behavior, refer to the [Setup Instructions](setup-instructions.md). for help.
+If you run into unexpected behavior, refer to the [Setup Instructions](setup-instructions.md) for help.
