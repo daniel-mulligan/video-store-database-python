@@ -4,30 +4,6 @@ This document outlines the high-level architecture of the **Video Store Manageme
 
 ---
 
-## 📦 Project Structure
-
-video_store/
-│
-├── server.py # Starts the TCP server and handles incoming client requests
-├── main.py # Entry point for running the client application
-├── start_menu.py # Handles user menu interface
-│
-├── customer_register.py # UI logic for registering customers
-├── video_register.py # UI logic for registering videos
-├── hire_out_video.py # UI logic for hiring out videos
-├── return_video.py # UI logic for returning videos
-│
-├── customer_manager.py # Business logic for customer management
-├── video_manager.py # Business logic for video management
-├── hire_manager.py # Business logic for hiring videos
-├── return_manager.py # Business logic for returning videos
-│
-├── database.py # Handles direct database connections
-├── create_db.py # Functions to create the database and tables
-├── clear_screen.py # Utility to clear the terminal screen
-
----
-
 ## 🔄 Program Flow
 
 ### Step 1: Server Initialization
